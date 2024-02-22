@@ -16,6 +16,44 @@
 body {
     display: flex;
     justify-content: center;
+    margin: 0px;
+}
+
+/* Début des modifications sur le header*/
+#logo_header {
+    width: 61.09px;
+    height: 19px;
+    padding: 20px;
+    margin: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#menu { /* ID vraiment nécessaire pour définir le menu ? */
+    width: 250px; /* On définit la taille du conteneur pour utilisation avec flexbox */
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 0px, 20px, 0px, 20px;
+}
+
+nav a:hover {
+   color: #0065FC;
+   border-top-color: #0065FC;
+
+}
+
+nav a {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top-color: white;
+    border-top-width: 3px;
+    border-top-style: solid;
 }
 
 .main-container {
