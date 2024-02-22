@@ -12,6 +12,58 @@
 .fa-solid {
     color: var(--main-color);
 }
+/* Début des modifications sur le formulaire */
+
+form {
+    width: 377px;
+    height: 49px;
+    border-radius: 20px;
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    font-size: medium;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 0px;
+    border: 1px solid #F2F2F2;
+}
+
+#saisie-ville {
+    width: 200px;
+    text-align: center;
+    border-radius: 0px;
+}
+
+#bouton {
+    color: white;
+    background-color: #0065FC;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+#label_recherche {
+    background-color: #F2F2F2;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#icone_recherche {
+    color: black;
+    font-size: large;
+}
 
 body {
     display: flex;
